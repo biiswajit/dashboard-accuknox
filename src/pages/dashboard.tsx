@@ -1,3 +1,8 @@
+import { CatagoryLayout } from "../components";
+
+
 export function Dashboard() {
-  return <div className="text-red-100">This is the dashboard page</div>
+  return <div className="w-screen h-screen">
+    <CatagoryLayout catagoryName="CSPM Executive Dashboard" />
+  </div>
 }
