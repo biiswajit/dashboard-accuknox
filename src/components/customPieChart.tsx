@@ -1,11 +1,11 @@
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
-import { cspmType } from "../types";
+import { payloadType } from "../types";
 
 export function CustomPieChart(
-{ payload, totalCount }: {payload: cspmType[], totalCount: number}) {
+{ payload, totalCount }: {payload: payloadType[], totalCount: number}) {
 
   return (
-  <ResponsiveContainer width="60%" height="100%">
+  <ResponsiveContainer width="50%" height="100%">
     <PieChart>
       <Pie
         data={payload}

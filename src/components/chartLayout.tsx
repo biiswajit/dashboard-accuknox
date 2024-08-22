@@ -1,11 +1,9 @@
-import { PieChartContainer } from "./pieChartContainer";
-import { cspmType } from "../types";
+import React from "react";
 
 export function ChartLayout(
-{ payload, totalCount }: { payload: cspmType[], totalCount: number}
-) {
+{ children }: { children: React.ReactNode }) {
 
-  return <div className="border-2 border-gray-200 rounded-md h-[90%] m-3 shadow-md bg-white hover:bg-gray-100">
-    <PieChartContainer payload={payload} totalCount={totalCount}/>
+  return <div className="border-2 border-gray-200 rounded-md m-3 p-5 shadow-md bg-white hover:bg-gray-100">
+    { children }
   </div>
 }

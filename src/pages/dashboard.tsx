@@ -1,8 +1,10 @@
-import { CatagoryLayout } from "../components";
+import { CatagoryLayout, ListOfCharts } from "../components";
 
 
 export function Dashboard() {
   return <div className="w-screen h-screen">
-    <CatagoryLayout catagoryName="CSPM Executive Dashboard" />
+  <CatagoryLayout catagoryName="CSPM Executive Dashboard">
+    <ListOfCharts />
+  </CatagoryLayout>
   </div>
 }
