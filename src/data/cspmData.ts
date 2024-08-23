@@ -1,4 +1,4 @@
-export const cspm = [
+export const cspmData = [
   {
     heading: "Cloud Accounts",
     payload: [
@@ -38,35 +38,5 @@ export const cspm = [
         color: "#399918"
       }
     ]
-  },
-  {
-    heading: "Cloud Accounts",
-    payload: [
-      {
-        name: "connected",
-        data: 2,
-        color: "#4B70F5"
-      },
-      {
-        name: "not connected",
-        data: 2,
-        color: "#96C9F4"
-      }
-    ],
-  },
-  {
-    heading: "Cloud Accounts",
-    payload: [
-      {
-        name: "connected",
-        data: 2,
-        color: "#4B70F5"
-      },
-      {
-        name: "not connected",
-        data: 2,
-        color: "#96C9F4"
-      }
-    ],
   },
 ];
